@@ -36,8 +36,8 @@
     border-radius: 10px;
     background-color: gray;
     position: absolute;
-    top: 25%;
-    right: 20%;
+    top: 40%;
+    right: 40%;
     transform: translate(-50%, -50%);
     text-indent: 20px;
     line-height: 1.5;
@@ -47,17 +47,46 @@
 }
 
 .form-4 {
-    width: 300px;
-    height: 250px;
+    width: 420px;
+    height: 740px;
     border-radius: 10px;
     background-color: gray;
     position: absolute;
-    top: 25%;
-    right: 20%;
+    top: 40%;
+    right: 10%;
     transform: translate(-50%, -50%);
     text-indent: 20px;
     line-height: 1.5;
     font-size: 16px;
     line-height: 1.6;
     text-align: justify;
+    text-align: center;
+}
+.form-5 {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.form-5 label,
+input,
+select {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.form-5 button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.result-1 {
+    max-width: 400px;
+    margin: 20px auto;
+    margin-bottom: 10px;
 }
